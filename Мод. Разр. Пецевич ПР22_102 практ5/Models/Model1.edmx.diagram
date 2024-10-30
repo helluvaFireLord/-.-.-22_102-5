@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="799393a810bf42c68debc6f2812c59ee" Name="Diagram1">
+        <EntityTypeShape EntityType="ХлебопекарняModel.Authorization" Width="1.5" PointX="0.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ХлебопекарняModel.Checks" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ХлебопекарняModel.Employees" Width="1.5" PointX="3" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="ХлебопекарняModel.Materials" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ХлебопекарняModel.Operation_type" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ХлебопекарняModel.Order_details" Width="1.5" PointX="5.25" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ХлебопекарняModel.Orders" Width="1.5" PointX="3" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ХлебопекарняModel.Positions" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ХлебопекарняModel.Products" Width="1.5" PointX="3" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ХлебопекарняModel.Sales_points" Width="1.5" PointX="0.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ХлебопекарняModel.Suppliers" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ХлебопекарняModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ХлебопекарняModel.Tax_reports" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ХлебопекарняModel.Work_schedule" Width="1.5" PointX="5.25" PointY="11.625" IsExpanded="true" />
+        <AssociationConnector Association="ХлебопекарняModel.FK_Employees_Authorization" ManuallyRouted="false" />
+        <AssociationConnector Association="ХлебопекарняModel.FK__Purchases__Mater__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="ХлебопекарняModel.FK__Purchases__Suppl__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="ХлебопекарняModel.FK_Checks_Operation_type" ManuallyRouted="false" />
+        <AssociationConnector Association="ХлебопекарняModel.FK_Checks_Operation_type1" ManuallyRouted="false" />
+        <AssociationConnector Association="ХлебопекарняModel.FK_Tax_reports_Purchases" ManuallyRouted="false" />
+        <AssociationConnector Association="ХлебопекарняModel.FK__Work_sche__Emplo__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="ХлебопекарняModel.FK_Employees_Positions" ManuallyRouted="false" />
+        <AssociationConnector Association="ХлебопекарняModel.FK_Tax_reports_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="ХлебопекарняModel.FK__Order_det__Order__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="ХлебопекарняModel.FK__Order_det__Produ__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="ХлебопекарняModel.FK__Orders__Sales_po__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="ХлебопекарняModel.FK_Tax_reports_Orders" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
